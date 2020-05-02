@@ -24,9 +24,9 @@ function Home(props) {
                <RenderCard item={props.promotion} />
             </div>
             <div className="col-md m-1">
-               <RenderCard item={props.partner}></RenderCard>
+               <RenderCard item={props.partner} />
             </div>
-         </div>
+         </div>   
       </div>
    );
 }
