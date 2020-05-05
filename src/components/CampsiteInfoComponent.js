@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Card, CardImg, CardText, CardBody, Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
@@ -36,7 +36,7 @@ function RenderCampsite({campsite}) {
       }
 
    function CampsiteInfo(props) {
-      if (this.props.campsite) {
+      if (props.campsite) {
          return (
             <div className="container">
                <div className="row">

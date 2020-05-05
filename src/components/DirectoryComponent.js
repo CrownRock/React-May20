@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Card, CardImg, CardImgOverlay, CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
@@ -33,8 +33,12 @@ function Directory(props) {
                         <BreadcrumbItem active>Directory</BreadcrumbItem>
                     </Breadcrumb>
                     <h2>Directory</h2>
-
                     <hr />
+                </div>
+            </div>
+            <div className="container">
+                <div className="row">
+                    {directory}
                 </div>
             </div>
         </div>
